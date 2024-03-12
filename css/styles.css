@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
     color: #434455;
 }
 
@@ -32,7 +32,7 @@ ul {
     color: #2e2f42;
 }
 
-.nav {
+.nav-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -44,7 +44,7 @@ ul {
     color: inherit;
 }
 
-.nav .nav-link:hover, .nav .nav-link:focus {
+.nav-list .nav-link:hover, .nav-list .nav-link:focus {
     color: #404bbf;
 }
 
@@ -94,7 +94,6 @@ ul {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -112,7 +111,6 @@ ul {
 }
 
 .adv-list-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -133,7 +131,6 @@ ul {
 }
 
 .team-list-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -154,23 +151,21 @@ ul {
 }
 
 .portfolio-list-descr {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .portfolio-section-list {
     background: #fff;
 }
 
-.footer {
+.footer-block {
     background: #2e2f42;
 }
 
 .footer-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
